@@ -25,8 +25,8 @@
 ```
 
 
-## Getting with Phpunit
+## Sample response
 
 ```
-    $ phpunit or ./bin/phpunit
+   http://127.0.0.1:8000/reviews/get/1?date_from=2020-01-01&date_to=2020-01-02
 ```
