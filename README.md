@@ -1,16 +1,32 @@
-### Hi there 👋
+# Statistics API
 
-<!--
-**statisticsapi/statisticsApi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+[![Build Status](https://travis-ci.org/Tony133/symfony5-api-rest.svg?branch=master)](https://travis-ci.org/Tony133/symfony5-api-rest)
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+## Install with Composer
+
+```
+    $ curl -s http://getcomposer.org/installer | php
+    $ composer install
+``
+
+## Setting Environment
+
+```
+    $ cp .env.dist .env
+```
+
+## Getting with Curl
+
+```
+    $ curl -H 'content-type: application/json' -v -X GET http://127.0.0.1:8000/reviews/get/1?date_from=2018-12-01&date_to=2020-01-12
+
+```
+
+
+## Getting with Phpunit
+
+```
+    $ phpunit or ./bin/phpunit
+```

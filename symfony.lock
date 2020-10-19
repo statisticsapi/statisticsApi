@@ -1,0 +1,48 @@
+{
+    "beberlei/doctrineextensions": {
+        "version": "v1.2.8"
+    },
+    "php": {
+        "version": "7.3"
+    },
+    "symfony/deprecation-contracts": {
+        "version": "v2.2.0"
+    },
+    "symfony/http-client-contracts": {
+        "version": "v2.3.1"
+    },
+    "symfony/polyfill-intl-grapheme": {
+        "version": "v1.18.1"
+    },
+    "symfony/polyfill-php80": {
+        "version": "v1.18.1"
+    },
+    "symfony/property-access": {
+        "version": "v5.1.7"
+    },
+    "symfony/property-info": {
+        "version": "v5.1.7"
+    },
+    "symfony/serializer": {
+        "version": "v5.1.7"
+    },
+    "symfony/string": {
+        "version": "v5.1.7"
+    },
+    "symfony/translation-contracts": {
+        "version": "v2.3.0"
+    },
+    "symfony/validator": {
+        "version": "4.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "4.3",
+            "ref": "d902da3e4952f18d3bf05aab29512eb61cabd869"
+        },
+        "files": [
+            "config/packages/test/validator.yaml",
+            "config/packages/validator.yaml"
+        ]
+    }
+}
